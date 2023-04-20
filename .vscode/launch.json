@@ -1,0 +1,17 @@
+{
+    "configurations": [
+    
+        {
+            "name": "Python: File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "justMyCode": true,
+            "args":[
+                "--image","C://Users//haoyu//Desktop//opencvimg//origin//card.png",
+                "--template","C://Users//haoyu//Desktop//opencvimg//origin//number.png"
+            ]
+            
+        }
+    ]
+}
