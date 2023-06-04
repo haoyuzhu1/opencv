@@ -8,8 +8,14 @@
             "program": "${file}",
             "justMyCode": true,
             "args":[
-                "--image","C://Users//haoyu//Desktop//opencvimg//origin//card.png",
-                "--template","C://Users//haoyu//Desktop//opencvimg//origin//number.png"
+                //"--image","C://Users//haoyu//Desktop//opencvimg//origin//face3.png",
+                // "--template","C://Users//haoyu//Desktop//opencvimg//origin//number.png"
+                //"--video","./videos/soccer_01.mp4",
+                //"--tracker","kcf",
+                // "--prototxt","mobilenet_ssd//MobileNetSSD_deploy.prototxt", 
+                // "--model","mobilenet_ssd//MobileNetSSD_deploy.caffemodel",
+                "--video","C://Users//haoyu//Desktop//opencv//videos//eye_test.mp4",
+                "--shape-predictor","C://Users//haoyu//Desktop//opencv//shape_predictor_68_face_landmarks.dat"
             ]
             
         }

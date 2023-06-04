@@ -190,7 +190,7 @@ for (i, (gX, gY, gW, gH)) in enumerate(locs):
             # 模板匹配
             result = cv2.matchTemplate(roi, digitROI,
                                        cv2.TM_CCOEFF)
-            (_, score, _, _) = cv2.minMaxLoc(result)
+            (_,score, _, _) = cv2.minMaxLoc(result)
             scores.append(score)
 
         # 得到最合适的数字
