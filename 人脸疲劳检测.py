@@ -79,7 +79,7 @@ while True:
 		break
 
 	(h, w) = frame.shape[:2]
-	width=600
+	width=1200
 	r = width / float(w)
 	dim = (width, int(h * r))
 	frame = cv2.resize(frame, dim, interpolation=cv2.INTER_AREA)
